@@ -4,7 +4,7 @@ This simple website is intended to help with KCM officer nominations for the Spr
 
 Only members may nominate, and only non-senior members may be nominated. This website's dropdown menu allows for KCM attendees to make sure they are a member if they want to vote, and check if their nominations are valid.
 
-It also (will) displays the officer descriptions to remind members what to look for in their member nominations.
+It also (will) displays the officer descriptions to remind members what to look for in their officer nominations.
 
 
 ## How this website was built
