@@ -1,11 +1,31 @@
 .App {
   text-align: center;
-  width: 50%;
-  padding-top: 10%;
-  padding-left: 25%;
-  padding-right: 25%;
+  font-family: 'Trebuchet MS';
 }
 
-.Header{
-  padding-bottom: 3%;
+.Dropdown{
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+/* .Header{
+  padding-bottom: 1%;
+} */
+
+.OfficerBox{
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 8%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10%;
+  background-color: rgba(0, 110, 255, 0.097);
+}
+
+.AllOfficers{
+  padding-left: 7%;
+  padding-right: 7%;
 }
