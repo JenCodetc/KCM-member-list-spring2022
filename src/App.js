@@ -3,10 +3,9 @@ import React from "react";
 import Select from "react-select";
 import { useState } from "react";
 
-// TODO: remove values, change id to year, filter out seniors
+// TODO: filter out seniors
 // TODO: set max width for officer div, add divs in big div
 // TODO: change officer description to bullet form
-// TODO: ask brian help cloudflare update
 
 // Members' first and last names, year graduating (id)
 const memberNames = [
@@ -92,6 +91,7 @@ function MemberSearch() {
 
   return (
     <div className="App">
+
       <div className="Dropdown">
         <h2 className="Header">KCM Member List: Spring 2022</h2>
 
@@ -146,8 +146,7 @@ function MemberSearch() {
         />
       </div>
 
-      <img src={"src/kcmlogo.jpeg"}/>
-
+      <img src={require("./kcmlogo.jpeg")} className="Logo" />
     </div>
   );
 }
