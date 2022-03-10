@@ -38,8 +38,8 @@ const memberNames = [
   { label: "Rena Lee", year: "2023" },
   { label: "Shannon Lee", year: "2024" },
   { label: "Janice Lee", year: "2024" },
-  { label: "Casey  Leung*", year: "2022" },
-  { label: "Alisa Leung", year: "2024" },
+  { label: "Casey Leung*", year: "2022" },
+  { label: "Alisa Leung*", year: "2024" },
   { label: "Rebecca Li", year: "2023" },
   { label: "Jennifer Li", year: "2025" },
   { label: "Naomi Lien", year: "2024" },
@@ -70,7 +70,7 @@ const memberNames = [
     value: currentItem.label,
   };
 });
-console.log(memberNames);
+/* console.log(memberNames); */
 
 function Officer(props) {
   return (
